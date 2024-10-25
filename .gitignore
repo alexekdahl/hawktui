@@ -1,0 +1,41 @@
+# Ignore the build directory (recommended to keep build files separate from source files)
+build/
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Ignore library files
+*.a
+*.so
+*.dylib
+*.dll
+
+# Ignore executable files
+example
+*.exe
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp        # Vim swap files
+*~           # Temporary file backups
+*.log        # Log files
+*.bak        # Backup files
+
+# Code coverage and profiling
+*.gcno
+*.gcda
+*.gcov
+
+# Others
+*.o          # Object files
+*.obj        # Object files
+*.tmp        # Temp files
